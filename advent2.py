@@ -13,6 +13,7 @@ def checkValidPassword(letter, min, max, s):
 	else:
 		return False 
 
+# PART TWO
 def checkValidPasswordPart2(letter, i1, i2, s):
 	if((s[i1] == letter and s[i2] != letter) or (s[i1] != letter and s[i2] == letter)):
 		return True
@@ -30,3 +31,5 @@ for line in lines:
 
 
 print(globalCounter)
+
+
